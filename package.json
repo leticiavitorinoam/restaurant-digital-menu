@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/leticiavitorinoam/restaurant-digital-menu/issues"
   },
-  "homepage": "https://github.com/leticiavitorinoam/restaurant-digital-menu#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.4.19"
-  }
+  "homepage": "https://github.com/leticiavitorinoam/restaurant-digital-menu#readme"
 }
