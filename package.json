@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-digital-menu",
+  "version": "1.0.0",
+  "description": "A simple digital restaurant menu built with HTML, CSS and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./CSS/style.css -o ./CSS/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leticiavitorinoam/restaurant-digital-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/leticiavitorinoam/restaurant-digital-menu/issues"
+  },
+  "homepage": "https://github.com/leticiavitorinoam/restaurant-digital-menu#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
