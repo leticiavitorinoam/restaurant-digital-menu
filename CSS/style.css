@@ -1,3 +1,117 @@
 body{
-    background-color: rgb(245, 219, 190);
+    background-color: #f4ede4;
 }
+
+.banner {
+  width: 100%;
+  height: 170px;
+  background-image: url("../assets/banner2.jpg");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("../assets/textura.avif");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.12;
+  pointer-events: none;
+}
+.titulo {
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+  color: #f4ede4;
+  font-family: "Acme", serif;
+}
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+nav {
+  position: absolute;  /* tira do fluxo normal */
+  top: 200px;          /* distância do topo */
+  left: 0;             /* colado na esquerda da página */
+  display: flex;       /* ativa flex para os links ficarem na mesma linha */
+  gap: 5px;           /* espaço entre os links */
+  padding-left: 20px;
+}
+
+
+
+nav a {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #1a1147;
+  border-radius: 8px;
+  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ff5757;
+}
+
+nav:has(a:hover) a:not(:hover) {
+  opacity: 0.3;
+}
+
+
+
+
+.botao-pedidos {
+    background-color: #ff5757;
+
+}
+
+
+
+
+
+/*ARRUMARRRRRRRRRRRRRRRRRR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*?
+
+
+/*
+*{
+  box-sizing: border-box;
+}
+
+nav {
+  position: absolute;   botão fixo relativo à página 
+  top: 200px;           distância do topo 
+  left: 20px;           distância da esquerda 
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1a1147;              texto roxo 
+  padding: 12px 24px;
+  background-color: #ff5757;   fundo vermelho 
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+ efeito hover invertido 
+nav a:hover {
+  color: #fff;                 texto branco ao passar o mouse 
+  background-color: #1a1147;   fundo roxo ao passar o mouse 
+  opacity: 1;
+}
+ */
